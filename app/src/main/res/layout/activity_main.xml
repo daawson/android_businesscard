@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/galaxx"
+        android:contentDescription="Logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"/>
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daawson Inc."
+        android:layout_below="@id/logo"
+        android:gravity="center"
+        android:background="#6F81C0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_below="@id/company"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="We do it for you!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/d2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/desc"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You won't even know."
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_below="@id/d2"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Making websites"
+        android:layout_marginTop="125dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/small"
+        android:layout_width="match_parent"
+        android:layout_below="@id/info"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="from scratch"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_below="@id/small"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Availavle 24/7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/t"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/xd" />
+
+</RelativeLayout>
